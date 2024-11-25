@@ -2,31 +2,31 @@
 
 # **Q1. IMDb Worst Rated Titles: Genre Impact Analysis**
 
-## **Project Overview**
+## Project Overview
 
 This project analyzes the IMDb Top 1000 Worst Rated Titles dataset to investigate whether movie genres significantly influence IMDb ratings. Using statistical methods such as one-way ANOVA, we uncover relationships between genres and ratings.
 
-## **Key Features**
+## Key Features
 
 - Perform **One-Way ANOVA** to test the hypothesis that genres affect IMDb ratings.
 - Generate an **ANOVA table** for detailed statistical results.
 - Explore the impact of genres on IMDb ratings through statistical tests.
 
-## **Technologies Used**
+## Technologies Used
 
 - **Python**: Core programming language for analysis.
 - **Pandas**: For data cleaning and manipulation.
 - **Scipy**: To perform one-way ANOVA.
 - **Statsmodels**: For generating ANOVA tables.
 
-## **Dataset**
+## Dataset
 
 - **Name**: IMDb Top 1000 Worst Rated Titles
 - **Columns Used**:
   - `Genres`: To extract the primary genre.
   - `IMDb Rating`: For statistical testing and analysis.
 
-## **Conclusion**
+## Conclusion
 
 - The p-value from the ANOVA test is **0**, indicating a **statistically significant impact** of genres on IMDb ratings.
 - The findings reveal that genres play a critical role in explaining variations in IMDb ratings.
